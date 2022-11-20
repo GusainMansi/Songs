@@ -41,6 +41,9 @@ public boolean addToPlayList(String title, LinkedList<Song>playList){
       }
   } return false;
 }
+//the playList is what i am providing at main but the songs is the only arrayList here
+    //which contains the songs
+    //so i am adding in my playlist the songs from songs arrayList
 public boolean addToPlayList(int trackNumber,LinkedList<Song> playList){
       int index=trackNumber-1;
       if(index>=0 && index<=this.songs.size()-1){
